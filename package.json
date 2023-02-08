@@ -1,0 +1,46 @@
+{
+  "name": "c-util-demo",
+  "version": "1.2.0",
+  "description": "js工具库",
+  "main": "dist/c-util.umd.min.js",
+  "scripts": {
+    "test": "jest ./test",
+    "docs": "jsdoc --configure jsdoc.config.json",
+    "build": "rollup -c"
+  },
+  "files": [
+    "dist/c-util.umd.min",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "js",
+    "util",
+    "工具库",
+    "组件化"
+  ],
+  "author": "chisonglei",
+  "devDependencies": {
+    "@babel/preset-env": "^7.8.4",
+    "babel-preset-latest": "^6.24.1",
+    "jest": "^25.1.0",
+    "jsdoc": "^4.0.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.3.3",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-uglify": "^6.0.4"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.3"
+  },
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cslnihao/js-util.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cslnihao/js-util/issues"
+  },
+  "homepage": "https://github.com/cslnihao/js-util#readme"
+}
